@@ -30,8 +30,13 @@ function httpGetAsync(theUrl, writeDocument)
 
 function writeDocument(response) {
   var res = JSON.parse(response);
+  var areaName = res.name;
+  var country = res.sys.country;
   var temp = res.main.temp;
   var iconURL = res.weather[0].icon;
-  temperature.innerHTML = temp;
-  weatherIcon.innerHTML = "<img src="'+iconURL+'">";
+  temperature.innerHTML = temp+' <span class="show-degree">&#8451;</span>';
+  weatherIcon.innerHTML = '<img src=\"'+iconURL+'\">';
 }
+
+
+getLocation();

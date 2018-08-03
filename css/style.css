@@ -1,0 +1,9 @@
+body{
+  background-color: orange;
+  text-align: center;
+}
+
+.show-degree{
+  font-size: 1rem;
+  color: blue;
+}
