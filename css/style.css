@@ -1,9 +1,27 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+html *,
+html *:before,
+html *:after { box-sizing: inherit; }
+
 body{
-  background-color: orange;
+  background-color: #b9a57f;
   text-align: center;
+  color: #52350d;
 }
 
-.show-degree{
-  font-size: 1rem;
-  color: blue;
+p {
+  font-size: 2rem;
+}
+
+.header {
+  font-size: 3.5rem;
+}
+
+#toggle-temp{
+  font-size: 1em;
+  color: #4a76ff;
+  cursor: pointer;
 }
