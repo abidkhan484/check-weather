@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 32px;
 }
 html *,
 html *:before,
@@ -12,12 +12,14 @@ body{
   color: #52350d;
 }
 
-p {
-  font-size: 2rem;
+img{
+  min-width: 3rem;
+  min-height: 3rem;
 }
 
+
 .header {
-  font-size: 3.5rem;
+  font-size: 1.75rem;
 }
 
 #toggle-temp{
